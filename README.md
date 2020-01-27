@@ -40,13 +40,20 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+The "homies" - req & res. This is a callback function that receives a request and response object when a method is called on the server.
+
 - [ ] Describe Middleware?
 
 - [ ] Describe a Resource?
+In a RESTful API, everything is a resource. A resource is accessible through a unique URL and can be easily managed through HTTP methods.
 
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API can return status codes. i.e. 200 or 201 status codes.
+
 - [ ] How can we partition our application into sub-applications?
+
+By using Express routers and creating CRUD operations for different paths/routes and separating these routes in different files. 
 
 ## Minimum Viable Product
 
