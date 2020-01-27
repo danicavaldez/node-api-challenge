@@ -42,7 +42,11 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 The "homies" - req & res. This is a callback function that receives a request and response object when a method is called on the server.
 
+Routing -  We can map incoming requests to the appropriate request handler based on the URL and HTTP Method being used
+
 - [ ] Describe Middleware?
+
+Middleware is a list of functions that get executed in the order they are added into the code. It can execute any code, make changes to the request and the response objects, end the request-response cycle, call the next middleware in the stack.
 
 - [ ] Describe a Resource?
 In a RESTful API, everything is a resource. A resource is accessible through a unique URL and can be easily managed through HTTP methods.
